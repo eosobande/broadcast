@@ -19,7 +19,7 @@ Step 2. Make your activity or fragment implement QPBroadcastReceiver.BroadcastLi
         @override
         onReceiveBroadcast(Context context, String action, Bundle data) {
             // if multiple broadcast ids
-            switch(intent.getAction()) {
+            switch(action) {
                 case "test":
                 // do something
                 // get objects from bundle
