@@ -108,11 +108,10 @@ With bundle data
     Bundle bundle = new Bundle();
     BroadcastMessageManager.sendBroadcast("test", bundle);
 
-With bundle data
+With serializable custom object data
 
     // You can also send custom objects e.g MyCustomObject
     // NOTE: MyCustomObject must implement Serializable interface
     MyCustomObject customObject = new MyCustomObject();
-    Bundle bundle = new Bundle();
     BroadcastMessageManager.sendBroadcast("test", "customObject", customObject);
 
