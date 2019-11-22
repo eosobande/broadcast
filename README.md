@@ -60,7 +60,7 @@ OR
 Step 3. Create a BroadcastMessageManager class var in your activity/fragment class
 
 ```java
-    private QPBroadcastReceiver mBroadcastReceiver;
+    private BroadcastMessageManager mBroadcastReceiver;
 ```
 
 Step 4. In the onCreate method, instantiate the object with one broadcast id
